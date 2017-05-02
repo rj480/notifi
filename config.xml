@@ -18,6 +18,13 @@
     <platform name="android">
         <preference name="android-minSdkVersion" value="14" />
         <allow-intent href="market:*" />
+
+        <uses-permission android:name="android.permission.INTERNET" />
+        <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+        <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+        <uses-permission android:name="android.permission.WAKE_LOCK" />
+        <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+        <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />

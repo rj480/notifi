@@ -2,7 +2,7 @@ def manifest = new XmlSlurper().parse(file("AndroidManifest.xml"))
 android.defaultConfig {
    applicationId manifest.@package.text()
    manifestPlaceholders = [manifestApplicationId: "${android.defaultConfig.applicationId}",
-                          pushbots_app_id: "CORDOVA_APP_ID",
-                          google_sender_id: "CORDOVA_SENDER_ID",
+                          pushbots_app_id: "5908a7694a9efabe108b4567",
+                          google_sender_id: "1018992769151",
 						  pushbots_loglevel:"DEBUG"]
 }
